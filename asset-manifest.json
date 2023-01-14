@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/linear-algebra-website/static/css/main.073c9b0a.css",
-    "main.js": "/linear-algebra-website/static/js/main.c9290ecd.js",
+    "main.css": "/linear-algebra-website/static/css/main.37e99c11.css",
+    "main.js": "/linear-algebra-website/static/js/main.6ee16d48.js",
     "static/js/787.e426f25e.chunk.js": "/linear-algebra-website/static/js/787.e426f25e.chunk.js",
-    "static/media/logo.svg": "/linear-algebra-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/calculus.png": "/linear-algebra-website/static/media/calculus.1364fa9f130747d60eb7.png",
     "index.html": "/linear-algebra-website/index.html",
-    "main.073c9b0a.css.map": "/linear-algebra-website/static/css/main.073c9b0a.css.map",
-    "main.c9290ecd.js.map": "/linear-algebra-website/static/js/main.c9290ecd.js.map",
+    "main.37e99c11.css.map": "/linear-algebra-website/static/css/main.37e99c11.css.map",
+    "main.6ee16d48.js.map": "/linear-algebra-website/static/js/main.6ee16d48.js.map",
     "787.e426f25e.chunk.js.map": "/linear-algebra-website/static/js/787.e426f25e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c9290ecd.js"
+    "static/css/main.37e99c11.css",
+    "static/js/main.6ee16d48.js"
   ]
 }
