@@ -10,11 +10,11 @@ function TopNavBar() {
         <Navbar className ="column justify-content-end">
         <Nav className="">
             
-            <Nav.Link href="#syllabus">Syllabus</Nav.Link>
+            <Nav.Link href="#syllabus" className="nav-item">Syllabus</Nav.Link>
             
-            <Nav.Link href="#chapters">Chapters</Nav.Link>
+            <Nav.Link href="#chapters" className="nav-item">Chapters</Nav.Link>
 
-            <Nav.Link href="#exams">Past Exams</Nav.Link>
+            <Nav.Link href="#exams" className="nav-item">Past Exams</Nav.Link>
 
       </Nav>
       </Navbar>
