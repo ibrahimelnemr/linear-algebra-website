@@ -12,9 +12,9 @@ function TopNavBar() {
             
             <Nav.Link href="#syllabus" className="nav-item">Syllabus</Nav.Link>
             
-            <Nav.Link href="#chapters" className="nav-item">Chapters</Nav.Link>
+            <Nav.Link href="/chapters" className="nav-item">Chapters</Nav.Link>
 
-            <Nav.Link href="#exams" className="nav-item">Past Exams</Nav.Link>
+            <Nav.Link href="/home" className="nav-item">Home</Nav.Link>
 
       </Nav>
       </Navbar>

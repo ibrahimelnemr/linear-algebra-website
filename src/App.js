@@ -1,15 +1,47 @@
+/** Default  Imports */
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import TopNavBar from './components/TopNavbar';
-import EmbedPDF from './components/EmbedPDF';
-import Image from './components/Image';
-import Main from './components/Main';
-import Footer from './components/Footer';
+
+/** Other  Imports */
+import {
+  TopNavBar,
+  EmbedPDF,
+  Image,
+  Main,
+  Footer
+} from "./components";
+
+import {
+  Chapters,
+  Home
+} from "./pages";
+
 import { Container, Row, Col } from 'react-bootstrap';
+
+/**React Router */
+
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import { NavLink } from 'react-router-dom';
 
 function App() {
   return (
     <>
+
+{/* <Router>
+    <Routes>
+        <Route exact path='/chapters' element={<Chapters />} />
+    </Routes>
+</Router>
+ */}
+
+{/* <NavLink to="/chapters">
+                Chapters Lnk
+</NavLink> */}
+
+
+  
     <div className="main container-fluid">
     <Row>
       <TopNavBar/>
