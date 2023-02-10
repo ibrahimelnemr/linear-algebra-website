@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/linear-algebra-website/static/css/main.ecb83c2f.css",
-    "main.js": "/linear-algebra-website/static/js/main.bbdf41e8.js",
+    "main.js": "/linear-algebra-website/static/js/main.fa164f48.js",
     "static/js/787.e426f25e.chunk.js": "/linear-algebra-website/static/js/787.e426f25e.chunk.js",
     "static/media/calculus.png": "/linear-algebra-website/static/media/calculus.1364fa9f130747d60eb7.png",
     "static/media/Discrete Syllabus.pdf": "/linear-algebra-website/static/media/Discrete Syllabus.6fc18fe3c43edab90cc2.pdf",
     "index.html": "/linear-algebra-website/index.html",
     "main.ecb83c2f.css.map": "/linear-algebra-website/static/css/main.ecb83c2f.css.map",
-    "main.bbdf41e8.js.map": "/linear-algebra-website/static/js/main.bbdf41e8.js.map",
+    "main.fa164f48.js.map": "/linear-algebra-website/static/js/main.fa164f48.js.map",
     "787.e426f25e.chunk.js.map": "/linear-algebra-website/static/js/787.e426f25e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecb83c2f.css",
-    "static/js/main.bbdf41e8.js"
+    "static/js/main.fa164f48.js"
   ]
 }
