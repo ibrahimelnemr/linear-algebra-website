@@ -7,7 +7,6 @@ function EmbedPDF(props) {
         <iframe src={DiscretePDF} className="pdf">
             
         </iframe>
-        PDF Source: {props.pdfsource}
         </>
     );
 }
