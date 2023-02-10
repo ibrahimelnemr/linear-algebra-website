@@ -10,12 +10,18 @@ function TopNavBar() {
         <div className="bg-light">
         <Navbar className ="column justify-content-end">
         <Nav className="">
-            
-            <Nav.Link href="/syllabus" className="nav-item">Syllabus</Nav.Link>
-            
-            <Nav.Link href="/chapters" className="nav-item">Chapters</Nav.Link>
 
-            <Nav.Link href="/" className="nav-item">Home</Nav.Link>
+            <Link className="nav-link nav-item" to="/">Home </Link>
+            
+            <Link className="nav-link nav-item" to="/chapters">Chapters</Link>
+
+            <Link className="nav-link nav-item" to="/syllabus">Syllabus </Link>
+            
+            {/* <Nav.Link href="/syllabus" className="nav-item">Syllabus</Nav.Link> */}
+            
+            {/* <Nav.Link href="/chapters" className="nav-item">Chapters</Nav.Link> */}
+
+            {/* <Nav.Link href="/" className="nav-item">Home</Nav.Link> */}
 
       </Nav>
       </Navbar>
