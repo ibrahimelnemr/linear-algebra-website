@@ -1,5 +1,5 @@
 import React from 'react';
-import TestImg from '../calculus.png'
+import TestImg from '../assets/calculus.png'
 
 function Template() {
     return(

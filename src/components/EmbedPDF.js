@@ -1,5 +1,5 @@
 import React from 'react';
-import DiscretePDF from '../Discrete Syllabus.pdf'
+import DiscretePDF from '../assets/Discrete Syllabus.pdf'
 
 function EmbedPDF(props) {
     return(
