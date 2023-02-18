@@ -13,9 +13,13 @@ import {
 } from "./components";
 
 import {
-  Chapters,
   Home,
-  Syllabus
+  Syllabus,
+  Notes,
+  PastExams,
+  PastExams1,
+  PastExams2,
+  PastExamsFinal
 } from "./pages";
 
 import { Container, Row, Col } from 'react-bootstrap';
@@ -32,13 +36,20 @@ function App() {
       </Row>
   
     <Routes>
-
-    <Route path='/chapters' element={<Chapters /> } />
     <Route path='/' element={ <Home/> } />
+    
     <Route path='/syllabus' element={ <Syllabus/> } />
+    <Route path='/notes' element={ <Notes/> } />
+
+    <Route path='/pastexams1' element={ <PastExams1/> } />
+
+    <Route path='/pastexams2' element={ <PastExams2/> } />
+
+    <Route path='/pastexamsfinal' element={ <PastExamsFinal /> } />
 
   </Routes>
-
+      
+  <Footer/>
     
   </div>
   );

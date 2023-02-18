@@ -13,16 +13,16 @@ function TopNavBar() {
 
             <Link className="nav-link nav-item" to="/">Home </Link>
             
-            <Link className="nav-link nav-item" to="/chapters">Chapters</Link>
+            <Link className="nav-link nav-item" to="/notes">Notes</Link>
 
             <Link className="nav-link nav-item" to="/syllabus">Syllabus </Link>
             
-            {/* <Nav.Link href="/syllabus" className="nav-item">Syllabus</Nav.Link> */}
+            <Link className="nav-link nav-item" to="/pastexams1">Past Exams 1 </Link>
             
-            {/* <Nav.Link href="/chapters" className="nav-item">Chapters</Nav.Link> */}
+            <Link className="nav-link nav-item" to="/pastexams2">Past Exams 2 </Link>
 
-            {/* <Nav.Link href="/" className="nav-item">Home</Nav.Link> */}
-
+            <Link className="nav-link nav-item" to="/pastexamsfinal">Past Exams Final </Link>
+            
       </Nav>
       </Navbar>
       </div>

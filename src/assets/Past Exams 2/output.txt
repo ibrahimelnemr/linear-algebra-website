@@ -1,0 +1,18 @@
+Exam2Fall2017.pdf
+Exam2Fall2018.pdf
+Exam2Fall2019.pdf
+Exam2Fall2020V4.pdf
+Exam2Fall2022.pdf
+Exam2Spring2017.pdf
+Exam2Spring2019.pdf
+Exam2Spring2021.pdf
+Problem1_2nd_method.pdf
+SOLExam2Fall 2018.pdf
+SOLExam2Fall2019.pdf
+SOLExam2Fall2020.pdf
+SOLExam2Fall2022.pdf
+SOLExam2Spring2019.pdf
+SOLExam2Spring2021.pdf
+SOLExam2Spring2022.pdf
+SOLExam2Summer2022.pdf
+output.txt

@@ -8,6 +8,8 @@ import {
   Main,
   Footer
 } from "../components";
+import SyllabusSpring23 from '../assets/Syllabus Spring 23.pdf'
+
 
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -17,7 +19,9 @@ const Syllabus = () => {
       
     <h1>Syllabus</h1>
       
-      <EmbedPDF pdfsource="/pdf.pdf"/>
+    <iframe src={SyllabusSpring23} className="pdf">
+            
+            </iframe>
 </>
     );
 }

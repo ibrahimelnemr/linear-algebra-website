@@ -22,6 +22,8 @@
 .pdf {
   min-width: 100%;
   min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .nav-item {
