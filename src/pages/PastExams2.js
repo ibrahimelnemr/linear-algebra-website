@@ -32,24 +32,26 @@ import SOLExam2Summer2022 from "../assets/Past Exams 2/SOLExam2Summer2022.pdf";
 const PastExams2 = () => {
     return(
 <>
-    <h1>Past Exams2</h1>
-    <a className="text-secondary" href={Exam2Fall2017} target="_blank" rel="noreferrer"><h1>Exam2Fall2017</h1></a>
-<a className="text-secondary" href={Exam2Fall2018} target="_blank" rel="noreferrer"><h1>Exam2Fall2018</h1></a>
-<a className="text-secondary" href={Exam2Fall2019} target="_blank" rel="noreferrer"><h1>Exam2Fall2019</h1></a>
-<a className="text-secondary" href={Exam2Fall2020V4} target="_blank" rel="noreferrer"><h1>Exam2Fall2020V4</h1></a>
-<a className="text-secondary" href={Exam2Fall2022} target="_blank" rel="noreferrer"><h1>Exam2Fall2022</h1></a>
-<a className="text-secondary" href={Exam2Spring2017} target="_blank" rel="noreferrer"><h1>Exam2Spring2017</h1></a>
-<a className="text-secondary" href={Exam2Spring2019} target="_blank" rel="noreferrer"><h1>Exam2Spring2019</h1></a>
-<a className="text-secondary" href={Exam2Spring2021} target="_blank" rel="noreferrer"><h1>Exam2Spring2021</h1></a>
-<a className="text-secondary" href={Problem1_2nd_method} target="_blank" rel="noreferrer"><h1>Problem1_2nd_method</h1></a>
-<a className="text-secondary" href={SOLExam2Fall2018} target="_blank" rel="noreferrer"><h1>SOLExam2Fall2018</h1></a>
-<a className="text-secondary" href={SOLExam2Fall2019} target="_blank" rel="noreferrer"><h1>SOLExam2Fall2019</h1></a>
-<a className="text-secondary" href={SOLExam2Fall2020} target="_blank" rel="noreferrer"><h1>SOLExam2Fall2020</h1></a>
-<a className="text-secondary" href={SOLExam2Fall2022} target="_blank" rel="noreferrer"><h1>SOLExam2Fall2022</h1></a>
-<a className="text-secondary" href={SOLExam2Spring2019} target="_blank" rel="noreferrer"><h1>SOLExam2Spring2019</h1></a>
-<a className="text-secondary" href={SOLExam2Spring2021} target="_blank" rel="noreferrer"><h1>SOLExam2Spring2021</h1></a>
-<a className="text-secondary" href={SOLExam2Spring2022} target="_blank" rel="noreferrer"><h1>SOLExam2Spring2022</h1></a>
-<a className="text-secondary" href={SOLExam2Summer2022} target="_blank" rel="noreferrer"><h1>SOLExam2Summer2022</h1></a>
+<h1>Past Exams2</h1>
+
+<a className="pdf-link btn btn-dark" href={Exam2Fall2017} target="_blank" rel="noreferrer">Exam2Fall2017</a>
+<a className="pdf-link btn btn-dark" href={Exam2Fall2018} target="_blank" rel="noreferrer">Exam2Fall2018</a>
+<a className="pdf-link btn btn-dark" href={Exam2Fall2019} target="_blank" rel="noreferrer">Exam2Fall2019</a>
+<a className="pdf-link btn btn-dark" href={Exam2Fall2020V4} target="_blank" rel="noreferrer">Exam2Fall2020V4</a>
+<a className="pdf-link btn btn-dark" href={Exam2Fall2022} target="_blank" rel="noreferrer">Exam2Fall2022</a>
+<a className="pdf-link btn btn-dark" href={Exam2Spring2017} target="_blank" rel="noreferrer">Exam2Spring2017</a>
+<a className="pdf-link btn btn-dark" href={Exam2Spring2019} target="_blank" rel="noreferrer">Exam2Spring2019</a>
+<a className="pdf-link btn btn-dark" href={Exam2Spring2021} target="_blank" rel="noreferrer">Exam2Spring2021</a>
+<a className="pdf-link btn btn-dark" href={Problem1_2nd_method} target="_blank" rel="noreferrer">Problem1_2nd_method</a>
+<a className="pdf-link btn btn-dark" href={SOLExam2Fall2018} target="_blank" rel="noreferrer">SOLExam2Fall2018</a>
+<a className="pdf-link btn btn-dark" href={SOLExam2Fall2019} target="_blank" rel="noreferrer">SOLExam2Fall2019</a>
+<a className="pdf-link btn btn-dark" href={SOLExam2Fall2020} target="_blank" rel="noreferrer">SOLExam2Fall2020</a>
+<a className="pdf-link btn btn-dark" href={SOLExam2Fall2022} target="_blank" rel="noreferrer">SOLExam2Fall2022</a>
+<a className="pdf-link btn btn-dark" href={SOLExam2Spring2019} target="_blank" rel="noreferrer">SOLExam2Spring2019</a>
+<a className="pdf-link btn btn-dark" href={SOLExam2Spring2021} target="_blank" rel="noreferrer">SOLExam2Spring2021</a>
+<a className="pdf-link btn btn-dark" href={SOLExam2Spring2022} target="_blank" rel="noreferrer">SOLExam2Spring2022</a>
+<a className="pdf-link btn btn-dark" href={SOLExam2Summer2022} target="_blank" rel="noreferrer">SOLExam2Summer2022</a>
+
 
 </>
     );

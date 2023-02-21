@@ -31,29 +31,34 @@ const PastExams1 = () => {
 <>
       
     <h1>Past Exams 1</h1>
-    
-    <a className="text-secondary" href={Exam1Fall2017} target="_blank" rel="noreferrer"><h1>Exam1Fall2017</h1></a>
-<a className="text-secondary" href={SOLExam1Fall2018} target="_blank" rel="noreferrer"><h1>SOLExam1Fall2018</h1></a>
-<a className="text-secondary" href={Exam1Fall2018} target="_blank" rel="noreferrer"><h1>Exam1Fall2018</h1></a>
-<a className="text-secondary" href={SOLExam1Fall2019} target="_blank" rel="noreferrer"><h1>SOLExam1Fall2019</h1></a>
-<a className="text-secondary" href={Exam1Fall2019} target="_blank" rel="noreferrer"><h1>Exam1Fall2019</h1></a>
-<a className="text-secondary" href={SOLExam1Fall2020} target="_blank" rel="noreferrer"><h1>SOLExam1Fall2020</h1></a>
-<a className="text-secondary" href={Exam1Fall2022} target="_blank" rel="noreferrer"><h1>Exam1Fall2022</h1></a>
-<a className="text-secondary" href={SOLExam1Fall2021} target="_blank" rel="noreferrer"><h1>SOLExam1Fall2021</h1></a>
-<a className="text-secondary" href={Exam1Spring2016} target="_blank" rel="noreferrer"><h1>Exam1Spring2016</h1></a>
-<a className="text-secondary" href={SOLExam1Fall2022} target="_blank" rel="noreferrer"><h1>SOLExam1Fall2022</h1></a>
-<a className="text-secondary" href={Exam1Spring2019} target="_blank" rel="noreferrer"><h1>Exam1Spring2019</h1></a>
-<a className="text-secondary" href={SOLExam1Spring2016} target="_blank" rel="noreferrer"><h1>SOLExam1Spring2016</h1></a>
-<a className="text-secondary" href={Exam1Spring2020V1} target="_blank" rel="noreferrer"><h1>Exam1Spring2020V1</h1></a>
-<a className="text-secondary" href={SOLExam1Spring2019} target="_blank" rel="noreferrer"><h1>SOLExam1Spring2019</h1></a>
-<a className="text-secondary" href={Exam1Spring2020V2} target="_blank" rel="noreferrer"><h1>Exam1Spring2020V2</h1></a>
-<a className="text-secondary" href={SOLExam1Spring2020V2} target="_blank" rel="noreferrer"><h1>SOLExam1Spring2020V2</h1></a>
-<a className="text-secondary" href={Exam1Spring2021} target="_blank" rel="noreferrer"><h1>Exam1Spring2021</h1></a>
-<a className="text-secondary" href={SOLExam1Spring2021} target="_blank" rel="noreferrer"><h1>SOLExam1Spring2021</h1></a>
-<a className="text-secondary" href={Exam1Winter2023} target="_blank" rel="noreferrer"><h1>Exam1Winter2023</h1></a>
-<a className="text-secondary" href={SOLExam1Spring2022} target="_blank" rel="noreferrer"><h1>SOLExam1Spring2022</h1></a>
-<a className="text-secondary" href={SOLExam1Spring2020V1} target="_blank" rel="noreferrer"><h1>SOLExam1Spring2020V1</h1></a>
-<a className="text-secondary" href={SOLExam1Summer2022} target="_blank" rel="noreferrer"><h1>SOLExam1Summer2022</h1></a>
+
+{/* Links to PDFs */}
+<a className="pdf-link btn btn-dark" href={Exam1Fall2017} target="_blank" rel="noreferrer">Exam1Fall2017</a>
+<a className="pdf-link btn btn-dark" href={Exam1Fall2018} target="_blank" rel="noreferrer">Exam1Fall2018</a>
+<a className="pdf-link btn btn-dark" href={Exam1Fall2019} target="_blank" rel="noreferrer">Exam1Fall2019</a>
+<a className="pdf-link btn btn-dark" href={Exam1Fall2022} target="_blank" rel="noreferrer">Exam1Fall2022</a>
+<a className="pdf-link btn btn-dark" href={Exam1Spring2016} target="_blank" rel="noreferrer">Exam1Spring2016</a>
+<a className="pdf-link btn btn-dark" href={Exam1Spring2019} target="_blank" rel="noreferrer">Exam1Spring2019</a>
+<a className="pdf-link btn btn-dark" href={Exam1Spring2020V1} target="_blank" rel="noreferrer">Exam1Spring2020V1</a>
+<a className="pdf-link btn btn-dark" href={Exam1Spring2020V2} target="_blank" rel="noreferrer">Exam1Spring2020V2</a>
+<a className="pdf-link btn btn-dark" href={Exam1Spring2021} target="_blank" rel="noreferrer">Exam1Spring2021</a>
+<a className="pdf-link btn btn-dark" href={Exam1Winter2023} target="_blank" rel="noreferrer">Exam1Winter2023</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Fall2018} target="_blank" rel="noreferrer">SOLExam1Fall2018</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Fall2019} target="_blank" rel="noreferrer">SOLExam1Fall2019</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Fall2020} target="_blank" rel="noreferrer">SOLExam1Fall2020</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Fall2021} target="_blank" rel="noreferrer">SOLExam1Fall2021</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Fall2022} target="_blank" rel="noreferrer">SOLExam1Fall2022</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Spring2016} target="_blank" rel="noreferrer">SOLExam1Spring2016</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Spring2019} target="_blank" rel="noreferrer">SOLExam1Spring2019</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Spring2020V1} target="_blank" rel="noreferrer">SOLExam1Spring2020V1</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Spring2020V2} target="_blank" rel="noreferrer">SOLExam1Spring2020V2</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Spring2021} target="_blank" rel="noreferrer">SOLExam1Spring2021</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Spring2022} target="_blank" rel="noreferrer">SOLExam1Spring2022</a>
+<a className="pdf-link btn btn-dark" href={SOLExam1Summer2022} target="_blank" rel="noreferrer">SOLExam1Summer2022</a>
+
+
+
+
 </>
     );
 }

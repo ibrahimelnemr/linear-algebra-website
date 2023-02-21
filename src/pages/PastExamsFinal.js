@@ -30,23 +30,24 @@ const PastExamsFinal = () => {
     return(
 <>
       
-    <h1>Past Exams Final</h1>
+<h1>Past Exams Final</h1>
     
-    <a className="text-secondary" href={FinalFall2018} target="_blank" rel="noreferrer"><h1>FinalFall2018</h1></a>
-<a className="text-secondary" href={FinalFall2019} target="_blank" rel="noreferrer"><h1>FinalFall2019</h1></a>
-<a className="text-secondary" href={FinalFall2022} target="_blank" rel="noreferrer"><h1>FinalFall2022</h1></a>
-<a className="text-secondary" href={FinalFall2022_2} target="_blank" rel="noreferrer"><h1>FinalFall2022_2</h1></a>
-<a className="text-secondary" href={FinalSpring2021} target="_blank" rel="noreferrer"><h1>FinalSpring2021</h1></a>
-<a className="text-secondary" href={FinalSpring2020} target="_blank" rel="noreferrer"><h1>FinalSpring2020</h1></a>
-<a className="text-secondary" href={FinalSummer2022} target="_blank" rel="noreferrer"><h1>FinalSummer2022</h1></a>
-<a className="text-secondary" href={SOLFinalFall2018} target="_blank" rel="noreferrer"><h1>SOLFinalFall2018</h1></a>
-<a className="text-secondary" href={SOLFinalFall2019} target="_blank" rel="noreferrer"><h1>SOLFinalFall2019</h1></a>
-<a className="text-secondary" href={SOLFinalFall2020} target="_blank" rel="noreferrer"><h1>SOLFinalFall2020</h1></a>
-<a className="text-secondary" href={SOLFinalFall2021} target="_blank" rel="noreferrer"><h1>SOLFinalFall2021</h1></a>
-<a className="text-secondary" href={SOLFinalSpring2020} target="_blank" rel="noreferrer"><h1>SOLFinalSpring2020</h1></a>
-<a className="text-secondary" href={SOLFinalSpring2021} target="_blank" rel="noreferrer"><h1>SOLFinalSpring2021</h1></a>
-<a className="text-secondary" href={SOLFinalSpring2022} target="_blank" rel="noreferrer"><h1>SOLFinalSpring2022</h1></a>
-<a className="text-secondary" href={SOLFinalSummer2022} target="_blank" rel="noreferrer"><h1>SOLFinalSummer2022</h1></a>
+<a className="pdf-link btn btn-dark" href={FinalFall2018} target="_blank" rel="noreferrer">FinalFall2018</a>
+<a className="pdf-link btn btn-dark" href={FinalFall2019} target="_blank" rel="noreferrer">FinalFall2019</a>
+<a className="pdf-link btn btn-dark" href={FinalFall2022} target="_blank" rel="noreferrer">FinalFall2022</a>
+<a className="pdf-link btn btn-dark" href={FinalFall2022_2} target="_blank" rel="noreferrer">FinalFall2022_2</a>
+<a className="pdf-link btn btn-dark" href={FinalSpring2021} target="_blank" rel="noreferrer">FinalSpring2021</a>
+<a className="pdf-link btn btn-dark" href={FinalSpring2020} target="_blank" rel="noreferrer">FinalSpring2020</a>
+<a className="pdf-link btn btn-dark" href={FinalSummer2022} target="_blank" rel="noreferrer">FinalSummer2022</a>
+<a className="pdf-link btn btn-dark" href={SOLFinalFall2018} target="_blank" rel="noreferrer">SOLFinalFall2018</a>
+<a className="pdf-link btn btn-dark" href={SOLFinalFall2019} target="_blank" rel="noreferrer">SOLFinalFall2019</a>
+<a className="pdf-link btn btn-dark" href={SOLFinalFall2020} target="_blank" rel="noreferrer">SOLFinalFall2020</a>
+<a className="pdf-link btn btn-dark" href={SOLFinalFall2021} target="_blank" rel="noreferrer">SOLFinalFall2021</a>
+<a className="pdf-link btn btn-dark" href={SOLFinalSpring2020} target="_blank" rel="noreferrer">SOLFinalSpring2020</a>
+<a className="pdf-link btn btn-dark" href={SOLFinalSpring2021} target="_blank" rel="noreferrer">SOLFinalSpring2021</a>
+<a className="pdf-link btn btn-dark" href={SOLFinalSpring2022} target="_blank" rel="noreferrer">SOLFinalSpring2022</a>
+<a className="pdf-link btn btn-dark" href={SOLFinalSummer2022} target="_blank" rel="noreferrer">SOLFinalSummer2022</a>
+
 
     </>
     

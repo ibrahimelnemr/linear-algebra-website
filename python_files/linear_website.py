@@ -42,7 +42,7 @@ for i in exams1_list:
     
     import_statements_exams1.append(importline)
 
-    htmllink = "<a className=\"text-secondary pdf-link\" href={"+nameoffile+"} target=\"_blank\" rel=\"noreferrer\"><h1>"+nameoffile+"</h1></a>"
+    htmllink = "<a className=\"pdf-link btn btn-dark\" href={"+nameoffile+"} target=\"_blank\" rel=\"noreferrer\">"+nameoffile+"</a>"
 
     html_links_exams1.append(htmllink)
 
@@ -54,7 +54,7 @@ for i in exams2_list:
     
     import_statements_exams2.append(importline)
 
-    htmllink = "<a className=\"text-secondary pdf-link\" href={"+nameoffile+"} target=\"_blank\" rel=\"noreferrer\"><h1>"+nameoffile+"</h1></a>"
+    htmllink = "<a className=\"pdf-link btn btn-dark\" href={"+nameoffile+"} target=\"_blank\" rel=\"noreferrer\">"+nameoffile+"</a>"
 
     html_links_exams2.append(htmllink)
 
@@ -66,7 +66,7 @@ for i in examsfinal_list:
     
     import_statements_examsfinal.append(importline)
 
-    htmllink = "<a className=\"text-secondary pdf-link\" href={"+nameoffile+"} target=\"_blank\" rel=\"noreferrer\"><h1>"+nameoffile+"</h1></a>"
+    htmllink = "<a className=\"pdf-link btn btn-dark\" href={"+nameoffile+"} target=\"_blank\" rel=\"noreferrer\">"+nameoffile+"</a>"
 
     html_links_examsfinal.append(htmllink)
 
