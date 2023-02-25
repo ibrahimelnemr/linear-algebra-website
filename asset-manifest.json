@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/linear-algebra-website/static/css/main.4a30c2ca.css",
-    "main.js": "/linear-algebra-website/static/js/main.df3a9b4f.js",
+    "main.css": "/linear-algebra-website/static/css/main.4bd5166c.css",
+    "main.js": "/linear-algebra-website/static/js/main.2b5ab7bf.js",
     "static/js/787.e426f25e.chunk.js": "/linear-algebra-website/static/js/787.e426f25e.chunk.js",
     "static/media/SOLExam2Fall2022.pdf": "/linear-algebra-website/static/media/SOLExam2Fall2022.31eb2b2454d04b4747ce.pdf",
     "static/media/SOLExam1Fall2022.pdf": "/linear-algebra-website/static/media/SOLExam1Fall2022.45a0d1851aa4a1d62efd.pdf",
@@ -62,13 +62,14 @@
     "static/media/Exam2Fall2018.pdf": "/linear-algebra-website/static/media/Exam2Fall2018.c088c87917419f6a0fee.pdf",
     "static/media/Exam1Spring2020V2.pdf": "/linear-algebra-website/static/media/Exam1Spring2020V2.299bafa409709b303b23.pdf",
     "static/media/Exam1Fall2019.pdf": "/linear-algebra-website/static/media/Exam1Fall2019.5b7aee2a341c1d17be57.pdf",
+    "static/media/eslam.jpeg": "/linear-algebra-website/static/media/eslam.bb223fe5087966242e06.jpeg",
     "index.html": "/linear-algebra-website/index.html",
-    "main.4a30c2ca.css.map": "/linear-algebra-website/static/css/main.4a30c2ca.css.map",
-    "main.df3a9b4f.js.map": "/linear-algebra-website/static/js/main.df3a9b4f.js.map",
+    "main.4bd5166c.css.map": "/linear-algebra-website/static/css/main.4bd5166c.css.map",
+    "main.2b5ab7bf.js.map": "/linear-algebra-website/static/js/main.2b5ab7bf.js.map",
     "787.e426f25e.chunk.js.map": "/linear-algebra-website/static/js/787.e426f25e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a30c2ca.css",
-    "static/js/main.df3a9b4f.js"
+    "static/css/main.4bd5166c.css",
+    "static/js/main.2b5ab7bf.js"
   ]
 }
