@@ -1,22 +1,16 @@
-.main {
-
-  background-color: white;
-  min-height: 100vh;
-  /*
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  */
-  font-size: calc(10px + 2vmin);
-  color: #282c34;
-}
-
+.body, html {}
 
 .test-img {
   max-height: 30vh;
   width: auto;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
 }
 
 .pdf {
@@ -50,9 +44,6 @@
   transform-origin: bottom left;
 }
 
-.footer {
-  opacity: 50%;
-}
 
 .pdf-link {
   transition: transform .3s;

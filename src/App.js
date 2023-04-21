@@ -29,29 +29,23 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Link, Route, Routes } from 'react-router-dom';
 
 function App() {
-  return (
-      <div className="main container-fluid">
-      <Row>
-        <TopNavBar/>
-      </Row>
-  
-    <Routes>
-    <Route path='/' element={ <Home/> } />
-    
-    <Route path='/syllabus' element={ <Syllabus/> } />
-    <Route path='/notes' element={ <Notes/> } />
+return (
+<>
+<TopNavBar/>
+<main id="main" class="p-0 m-0 container-fluid d-flex flex-column min-vh-100">
 
-    <Route path='/pastexams1' element={ <PastExams1/> } />
+<Routes>
+  <Route path='/' element={ <Home/> } />
+  <Route path='/syllabus' element={ <Syllabus/> } />
+  <Route path='/notes' element={ <Notes/> } />
+  <Route path='/pastexams1' element={ <PastExams1/> } />
+  <Route path='/pastexams2' element={ <PastExams2/> } />
+  <Route path='/pastexamsfinal' element={ <PastExamsFinal /> } />
+</Routes>
+</main>
+<Footer/>
 
-    <Route path='/pastexams2' element={ <PastExams2/> } />
-
-    <Route path='/pastexamsfinal' element={ <PastExamsFinal /> } />
-
-  </Routes>
-      
-  <Footer/>
-    
-  </div>
+</>
   );
 }
 

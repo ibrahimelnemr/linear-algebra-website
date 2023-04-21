@@ -1,15 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import {
-  TopNavBar,
-  EmbedPDF,
-  Image,
-  Main,
-  Footer
-} from "../components";
 
-import { Container, Row, Col } from 'react-bootstrap';
+
 import FinalFall2018 from "../assets/Past Exams Final/FinalFall2018.pdf";
 import FinalFall2019 from "../assets/Past Exams Final/FinalFall2019.pdf";
 import FinalFall2022 from "../assets/Past Exams Final/FinalFall2022.pdf";

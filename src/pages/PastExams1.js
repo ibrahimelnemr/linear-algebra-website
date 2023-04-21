@@ -2,7 +2,6 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
-import Notes1 from "../assets/Notes/1.1 1.2.pdf"
 import Exam1Fall2017 from "../assets/Past Exams 1/Exam1Fall2017.pdf";
 import SOLExam1Fall2018 from "../assets/Past Exams 1/SOLExam1Fall2018.pdf";
 import Exam1Fall2018 from "../assets/Past Exams 1/Exam1Fall2018.pdf";
