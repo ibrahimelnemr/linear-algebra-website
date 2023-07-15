@@ -17,7 +17,7 @@ return (
 <>
 
   <h1>
-    Eslam Badr's Linear Algebra Notes
+    Linear Algebra Notes
   </h1>
         
   <div className="row justify-content-center m-5">
